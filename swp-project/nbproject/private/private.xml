@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/src/java/controller/IssueController.java</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/web/template/student/list/issuelist.jsp</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/web/template/teacher/add/classuseradd.jsp</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/src/java/dal/IssueDao.java</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/src/java/dal/TeamDao.java</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/src/java/controller/ClassUserController.java</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/src/java/model/Issue.java</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/src/java/dal/ClassUserDao.java</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/web/WEB-INF/web.xml</file>
+            <file>file:/Users/pallgree/Desktop/g4/swp-project/web/template/student/add/issueadd.jsp</file>
+        </group>
+    </open-files>
+</project-private>

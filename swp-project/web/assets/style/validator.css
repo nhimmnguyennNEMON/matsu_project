@@ -1,0 +1,29 @@
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+
+.form-message {
+    font-size: 14px;
+    line-height: 2rem;
+    padding: 10px 0 0;
+    margin-left: 10px
+}
+
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.spacer {
+    margin-top: 36px;
+}

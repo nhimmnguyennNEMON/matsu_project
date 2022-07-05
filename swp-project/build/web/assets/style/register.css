@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2022, 4:20:27 PM
+    Author     : quang
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+.wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+.wrapper h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #4070f4;
+}
+.wrapper form{
+    margin-top: 30px;
+}
+.wrapper form .input-box{
+    height: 52px;
+    margin: 18px 0;
+    position: relative;
+}
+form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-color: #4070f4;
+}
+form .policy{
+    display: flex;
+    align-items: center;
+}
+form h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.input-box.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #4070f4;
+    cursor: pointer;
+}
+.input-box.button input:hover{
+    background: #0e4bf1;
+}
+.input-box.button.disable input:hover {
+    background: #4070f4;
+    cursor: default;
+}
+form .text h3{
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+form .text h3 a{
+    color: #4070f4;
+    text-decoration: none;
+}
+form .text h3 a:hover{
+    text-decoration: underline;
+}
+i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #999;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.container {
+    width: 420px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form .indicator {
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    display: none;
+}
+
+form .indicator span {
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+    border-radius: 5px;
+    position: relative;
+}
+
+form .indicator span.medium {
+    margin: 0 3px;
+}
+
+form .indicator span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+form .indicator span.active.week::before {
+    background-color: #ff4757;
+}
+
+form .indicator span.active.medium::before {
+    background-color: orange;
+}
+
+form .indicator span.active.strong::before {
+    background-color: #23ad5c;
+}
+
+form .text-indicator {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: -10px;
+    display: none;
+}
+
+form .text-indicator.week {
+    color: #ff4757;
+}
+
+form .text-indicator.medium {
+    color: orange;
+}
+
+form .text-indicator.strong {
+    color: #23ad5c;
+}
