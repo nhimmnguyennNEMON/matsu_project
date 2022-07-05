@@ -18,6 +18,6 @@
    <br>
      <br>
        <br>
-       Đây là rep được đẩy từ gitlab qua nên sẽ k hiện thị toàn bộ commit trong quá trình code
+       Đây là repo được đẩy từ gitlab qua nên sẽ k hiện thị toàn bộ commit trong quá trình code
  
  
